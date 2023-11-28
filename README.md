@@ -2,7 +2,7 @@
 
 Result of TTS learning.
 
-We carried out 600epocs TTS machine learning to make inference of mel spectrogram with JSUT 1.1 train 4700, validation 200, test 100 data. Result is https://drive.google.com/file/d/1IgS5KEe-pdHNnOzOuPr7BN9lb5WzTPbi/view
+We carried out 600epocs TTS machine learning to make inference of mel spectrogram with JSUT 1.1 train 4700, validation 200, test 100 data. Result is https://drive.google.com/file/d/1IgS5KEe-pdHNnOzOuPr7BN9lb5WzTPbi/view with HiFiGAN https://github.com/jik876/hifi-gan.
 
 Feature of Program.
 
@@ -20,7 +20,7 @@ A loss is sum of mean squear erro of inferred mel spectrogram and teacher melspe
 
 A treatment of prosody
 
-We treat phoneme and prosody. We look on phoneme + prosody as an new phoneme  when there is prosody symbol. Becasu duration model is used. Duration is obtained for phoneme from duration model, but duration is not obtained for prosody from duration mdel. So, when there is prosody symbol, phoneme + prosody as new phoneme is considered and new phoneme has duration which is duration of original old phneme.
+We treat phoneme and prosody. We look on phoneme + prosody as an new phoneme  when there is prosody symbol. Becuase duration model do not treat prosody. There are durations for phoneme from duration model, but there are not durations for prosody from duration mdel. So, when there is prosody symbol, phoneme + prosody is considered as new phoneme and new phoneme has duration which is duration of original old phoneme.
 
 A detail Japanese explanation of TTS machine learning  https://qiita.com/toshiouchi/items/668e88e8bf91e154d779
 
