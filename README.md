@@ -6,11 +6,11 @@ We carried out 600epocs TTS machine learning to make inference of mel spectrogra
 
 Feature of Program.
 
-TransformerEncoder and TransformerDecoder have convolutional position wise feed forward network. The network has two convolution layers.
+TransformerEncoder and TransformerDecoder have convolutional position wise feed forward network. The network has two convolution layers. TransformerEncoder works as self attention.
 
 Encoder consists of embedding module, three convolutional layers, positional embbeding and TransformerEncoder.
 
-Decoder consists of prenet module, positional embbeding, TransformerDecoder and feat_out module which has linear projection. The prenet module consists of two layers of linear projection, ReLU and dropout.
+Decoder consists of prenet module, positional embbeding, TransformerDecoder and feat_out module which has linear projection. The prenet module consists of two layers of linear projection, ReLU and dropout. Inputs of decoder are two values, one is encoder output as soruce input of TransformerDecoder and length regulator output as target input of TransformerDecoder. TransformerDecoder works as cross attention. 
 
 Between encoder and Decoder there are duration prediction layer and length regulator layer. Both layers imitate fast speech https://github.com/xcmyz/FastSpeech and fast speech2 https://github.com/ming024/FastSpeech2
 
