@@ -1,6 +1,4 @@
 # transtron_non_ar
-transformer ベースの non-ar TTS の学習に使った ipynb
-
 
 Result of TTS learning.
 
