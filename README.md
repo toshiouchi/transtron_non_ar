@@ -26,5 +26,5 @@ A detail Japanese explanation of TTS machine learning  https://qiita.com/toshiou
 
 Data preparation program is new_preprocess.py.
 
-Jyputer Notebook script of learning program is ch142_learning_transtron_dp.ipynb.
+Jupyter Notebook script of learning program is ch142_learning_transtron_dp.ipynb.
 
