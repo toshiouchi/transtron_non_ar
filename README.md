@@ -16,7 +16,7 @@ Between encoder and Decoder there are duration prediction layer and length regul
 
 After decoder there is postnet layer.
 
-A loss is sum of mean squear erro of inferred mel spectrogram and teacher melspectrogram and mean squeare error of inferred duration and teacher duration.
+A loss is sum of mean squear error of inferred mel spectrogram and teacher melspectrogram and mean squeare error of inferred duration and teacher duration.
 
 A treatment of prosody
 
