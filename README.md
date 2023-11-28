@@ -12,7 +12,7 @@ Encoder consists of embedding module, three convolutional layers, positional emb
 
 Decoder consists of prenet which has linear projection, ReLU layer and dropout Layer, positional embbeding, TransformerDecoder and feat_out module which has linear projection.
 
-Between encoder and Decoder there are dulation prediction layer and length regulator layer. Both layers imitate fast speech https://github.com/xcmyz/FastSpeech and fast speech2 https://github.com/ming024/FastSpeech2
+Between encoder and Decoder there are duration prediction layer and length regulator layer. Both layers imitate fast speech https://github.com/xcmyz/FastSpeech and fast speech2 https://github.com/ming024/FastSpeech2
 
 After decoder there is postnet layer.
 
