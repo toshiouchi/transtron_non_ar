@@ -6,7 +6,7 @@ We carried out 600epocs TTS machine learning to make inference of mel spectrogra
 
 Feature of Program.
 
-TransformerEncoder and TransformerDecoder have convolutional position wise feed forward network. The network has two convolution layers. TransformerEncoder works as self attention.
+TransformerEncoder and TransformerDecoder have convolutional layer in spite of position wise feed forward network. The network has two convolution layers. TransformerEncoder works as self attention.
 
 Encoder consists of embedding module, three convolutional layers, positional embbeding and TransformerEncoder.
 
